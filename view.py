@@ -6,7 +6,9 @@ pygame.init()
 print(font.get_fonts())
 f = font.SysFont("comicsansms", 20, True)
 
-size_of_block=model.pole_rect.width/8
+size_of_block = model.pole_rect.width / 8
+
+
 def paint(okno):
     # вид
     okno.fill([200, 29, 90])
@@ -18,8 +20,97 @@ def paint(okno):
     # draw.rect(okno, [70, 199, 162], model.block)
     c = model.pole_rect.left
     for polus in model.mesta:
-        b=pygame.Rect(c, 35, size_of_block,size_of_block)
-        b.bottom=model.pole_rect.bottom
-        draw.rect(okno, [234, 100, 24],b,2)
+        b = pygame.Rect(c, 35, size_of_block, size_of_block)
+        b.bottom = model.pole_rect.bottom
         c += size_of_block
+        if polus==1:
+            draw.rect(okno, [234, 100, 24], b, 2)
     display.flip()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

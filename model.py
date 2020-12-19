@@ -5,7 +5,7 @@ import pygame
 pole_rect = pygame.Rect(300, 100, 300, 400)
 pole_rect.centerx = 400
 
-mesta=[1,0,0,1,0,1,1,0]
+mesta=[0,1,1,0,1,0,0,1]
 
 
 figura = []
